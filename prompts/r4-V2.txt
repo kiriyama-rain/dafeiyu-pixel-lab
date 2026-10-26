@@ -1,0 +1,9 @@
+Using the two provided reference images (the first is the original sticker, the second is a full-body render of the same character), generate a clean full-body character reference of this exact character, standing facing the viewer, arms slightly away from the body, feet shoulder-width apart, gentle smile.
+
+Most important correction: her hands are NOT human hands. They are light blue whale fins (smooth fin-shaped forearms with no fingers, no fingernails, no skin tone). Everything above the wrist is light blue.
+
+Keep unchanged: face shape and eye style, long wavy deep-navy hair with lighter blue tips, the small ahoge, white frilly maid headband, blue bows on both sides of the head, small dark navy whale-fin ears, dark navy dress with white ruffle trim and light blue bows, white apron with light blue scalloped edge and a small whale pattern, white knee socks and dark navy shoes, and the blue-and-white whale tail on her right.
+
+Style: flat vector, solid color blocks, uniform thick dark navy outline, at most two tones per color, no gradients, no texture, pure white background, full body in frame from ahoge to shoes, 1:1 square.
+
+Do not add: text, floor shadows, sparkles, background elements, extra accessories.

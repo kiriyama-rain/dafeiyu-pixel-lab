@@ -1,0 +1,7 @@
+Use the provided reference image as the authoritative character design. Generate a clean full-body character reference of exactly this character, standing straight, facing the viewer, arms relaxed at the sides, neutral friendly expression.
+
+Keep completely unchanged from the reference: the face shape and eye style, the deep navy blue hair (short bob, wavy tips), the small ahoge on top, the white frilly maid headband, the dark navy dress with puff sleeves and light blue cuffs, the white apron with light blue scalloped trim and the little whale printed on it, the light blue fin-like hands, and the blue-and-white whale tail.
+
+Style: flat vector illustration, large areas of solid color, thick dark navy outline of even weight, cel shading with at most two tones per color, no gradients, no texture, no background pattern. Pure white background. Full body visible from hair to shoes, centered, square 1:1 composition.
+
+Do not add: extra accessories, text, shadows on the floor, sparkles, or background elements.

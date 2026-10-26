@@ -1,0 +1,9 @@
+Using the provided reference images of the same character, produce the final animation-ready character sheet pose.
+
+Hard requirements, in priority order:
+1. Her hands and forearms are LIGHT BLUE WHALE FINS — smooth fin shapes, absolutely no fingers, no fingernails, no pink skin on the hands. Skin tone appears only on the face and neck.
+2. Arms are clearly separated from the torso with a visible gap, elbows slightly bent, so the silhouette reads at small sizes.
+3. Feet shoulder-width apart, tail clearly separated from the skirt on her right side.
+4. Everything else stays identical to the reference: long wavy deep-navy hair with lighter blue tips, small ahoge, white frilly maid headband with blue bows, dark navy whale-fin ears, dark navy dress with white ruffle trim and light blue bows, white apron with light blue scalloped edge and the small whale pattern, white knee socks, dark navy shoes.
+
+Style: flat vector, solid color blocks, uniform thick outline, simple cel shading (max two tones per color), no gradients, no texture. Pure white background, full body from ahoge to shoes, 1:1 square. No text, no floor shadow.

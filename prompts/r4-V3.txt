@@ -1,0 +1,9 @@
+Using the provided reference images of the same character, generate a version optimized for pixel-art conversion: the most readable full-body pose of this character.
+
+Requirements: stand facing the viewer, arms clearly separated from the torso (so silhouette reads even at 64 pixels), feet apart, tail clearly separated from the skirt, head slightly larger than realistic proportion (about three heads tall).
+
+Simplify aggressively for downscaling: solid flat colors only, uniform thick outline, no soft shading, no gradients, no highlights smaller than one eye, no lace micro-detail (use a simple scalloped edge instead), no more than 8 distinct colors total: navy, mid blue, light blue, pale blue-white, white, skin, dark outline, and one accent.
+
+Keep recognizable: long wavy hair, ahoge, maid headband, whale-fin ears, apron with the little whale, whale tail.
+
+Pure white background, full body, 1:1 square, no text.

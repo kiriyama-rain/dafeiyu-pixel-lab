@@ -54,6 +54,7 @@ def main():
     ap.add_argument('--aspect', default=None)
     ap.add_argument('--size', default=None)
     ap.add_argument('--timeout', type=int, default=600)
+    ap.add_argument('--ref', action='append', default=[], help='参考图文件，可重复；会以 base64 data URI 数组传给 images')
     a = ap.parse_args()
 
     cfg = load_env(a.env)
@@ -67,8 +68,15 @@ def main():
 
     prompt = open(a.prompt, encoding='utf-8').read().strip()
     t0 = time.time()
-    r = post_json(base + '/v1/media/generate',
-                  {'model': model, 'prompt': prompt, 'aspectRatio': ratio, 'imageSize': size}, key)
+    body = {'model': model, 'prompt': prompt, 'aspectRatio': ratio, 'imageSize': size}
+    if a.ref:
+        import base64, mimetypes
+        refs = []
+        for f in a.ref:
+            mime = mimetypes.guess_type(f)[0] or 'image/jpeg'
+            refs.append('data:%s;base64,%s' % (mime, base64.b64encode(open(f, 'rb').read()).decode()))
+        body['images'] = refs
+    r = post_json(base + '/v1/media/generate', body, key)
     tid = (r.get('data') or {}).get('task_id')
     if not tid:
         sys.exit('提交失败: %s' % json.dumps(r, ensure_ascii=False)[:300])
@@ -90,7 +98,7 @@ def main():
     ext = os.path.splitext(url.split('?')[0])[1] or '.jpg'
     img_path = a.out + ext
     open(img_path, 'wb').write(raw)
-    meta = {'model': model, 'aspect_ratio': ratio, 'image_size': size,
+    meta = {'model': model, 'refs': [os.path.basename(x) for x in a.ref], 'aspect_ratio': ratio, 'image_size': size,
             'prompt_file': os.path.relpath(a.prompt, HERE), 'prompt': prompt,
             'task_id': tid, 'elapsed_sec': round(time.time() - t0, 1),
             'file': os.path.basename(img_path), 'bytes': len(raw)}
