@@ -1,0 +1,11 @@
+{
+ "model": "banana-2.1",
+ "aspect_ratio": "1:1",
+ "image_size": "1K",
+ "prompt_file": "prompts/r1-B1.txt",
+ "prompt": "严格的像素艺术（pixel art），64×64 像素网格，放大 8 倍显示，16 色限定调色板，不允许任何抗锯齿与渐变。角色：蓝白色鲸鱼娘，深蓝长发，头顶呆毛，圆脸大眼睛，白色围裙，鲸鱼尾巴。正面站立姿势，纯色深蓝背景，硬边描边，复古 16-bit 掌机风格。",
+ "task_id": 190268712,
+ "elapsed_sec": 34.6,
+ "file": "r1-B1.jpg",
+ "bytes": 417303
+}

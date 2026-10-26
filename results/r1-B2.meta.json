@@ -1,0 +1,11 @@
+{
+ "model": "banana-2.1",
+ "aspect_ratio": "1:1",
+ "image_size": "1K",
+ "prompt_file": "prompts/r1-B2.txt",
+ "prompt": "像素艺术（pixel art），96×96 网格，放大 8 倍，32 色限定，硬边像素，禁止抗锯齿与渐变。蓝白色鲸鱼娘，深蓝长发，呆毛，圆脸大眼睛，白围裙蓝边，蓝白鲸尾，双手抱白饭碗。正面站立，深色背景，清晰的 1 像素黑色描边，复古 RPG 立绘风格。",
+ "task_id": 190269711,
+ "elapsed_sec": 21.3,
+ "file": "r1-B2.jpg",
+ "bytes": 431810
+}

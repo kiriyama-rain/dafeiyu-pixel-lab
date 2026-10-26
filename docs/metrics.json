@@ -1,0 +1,83 @@
+{
+ "r1-A1.jpg": {
+  "colors": 90946,
+  "grid_score": 0.025,
+  "size": [
+   2048,
+   2048
+  ],
+  "best_grid": 256
+ },
+ "r1-A2.jpg": {
+  "colors": 53700,
+  "grid_score": 0.0554,
+  "size": [
+   2048,
+   2048
+  ],
+  "best_grid": 256
+ },
+ "r2-A3.png": {
+  "colors": 32347,
+  "grid_score": 0.0053,
+  "size": [
+   1024,
+   1024
+  ],
+  "best_grid": 256
+ },
+ "r1-B1.jpg": {
+  "colors": 30020,
+  "grid_score": 0.0455,
+  "size": [
+   1024,
+   1024
+  ],
+  "best_grid": 256
+ },
+ "r1-B2.jpg": {
+  "colors": 38671,
+  "grid_score": 0.0718,
+  "size": [
+   1024,
+   1024
+  ],
+  "best_grid": 256
+ },
+ "r1-B3.jpg": {
+  "colors": 4749,
+  "grid_score": 0.0858,
+  "size": [
+   1024,
+   1024
+  ],
+  "best_grid": 256
+ },
+ "r1-C1_64_16.png": {
+  "colors": 16,
+  "grid_score": 1.0,
+  "size": [
+   512,
+   512
+  ],
+  "best_grid": 64
+ },
+ "r1-C4_64_12_crop.png": {
+  "colors": 12,
+  "grid_score": 1.0,
+  "size": [
+   512,
+   512
+  ],
+  "best_grid": 64
+ },
+ "r2-C5_64_12_crop.png": {
+  "colors": 12,
+  "grid_score": 1.0,
+  "size": [
+   512,
+   512
+  ],
+  "best_grid": 64
+ }
+}
