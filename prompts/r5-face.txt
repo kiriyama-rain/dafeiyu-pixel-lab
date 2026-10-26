@@ -1,0 +1,11 @@
+Using the provided reference images of this exact character, generate an expression sheet: four square panels side by side on a pure white background, each showing the same character's head and shoulders, framed identically.
+
+The four expressions, in this order:
+1. happy: eyes curved into smiling arcs, mouth open in a bright smile
+2. shy: cheeks blushing pink, eyes glancing down and away, small pursed mouth
+3. shocked: eyes wide open with small pupils, mouth open in an O, the ahoge standing straight up
+4. sad: eyelids drooping, mouth corners turned down, the ahoge drooping to one side
+
+Everything except the facial features must be identical in all four panels: same head size and angle, same hairstyle and hair color, same maid headband with blue bows, same whale-fin ears, same neckline.
+
+Style: flat vector, solid colors, uniform thick navy outline, simple cel shading, no gradients, no texture, no background elements, no text labels.

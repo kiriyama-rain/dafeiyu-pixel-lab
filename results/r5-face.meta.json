@@ -1,0 +1,15 @@
+{
+ "model": "banana-2.1",
+ "refs": [
+  "refs-ganfan.jpg",
+  "r4-V2.jpg"
+ ],
+ "aspect_ratio": "21:9",
+ "image_size": "2K",
+ "prompt_file": "prompts/r5-face.txt",
+ "prompt": "Using the provided reference images of this exact character, generate an expression sheet: four square panels side by side on a pure white background, each showing the same character's head and shoulders, framed identically.\n\nThe four expressions, in this order:\n1. happy: eyes curved into smiling arcs, mouth open in a bright smile\n2. shy: cheeks blushing pink, eyes glancing down and away, small pursed mouth\n3. shocked: eyes wide open with small pupils, mouth open in an O, the ahoge standing straight up\n4. sad: eyelids drooping, mouth corners turned down, the ahoge drooping to one side\n\nEverything except the facial features must be identical in all four panels: same head size and angle, same hairstyle and hair color, same maid headband with blue bows, same whale-fin ears, same neckline.\n\nStyle: flat vector, solid colors, uniform thick navy outline, simple cel shading, no gradients, no texture, no background elements, no text labels.",
+ "task_id": 190342737,
+ "elapsed_sec": 54.0,
+ "file": "r5-face.jpg",
+ "bytes": 1903582
+}

@@ -1,0 +1,15 @@
+{
+ "model": "banana-2.1",
+ "refs": [
+  "refs-ganfan.jpg",
+  "r4-V2.jpg"
+ ],
+ "aspect_ratio": "3:2",
+ "image_size": "2K",
+ "prompt_file": "prompts/r5-sheet.txt",
+ "prompt": "Using the provided reference images of this exact character, generate a character reference sheet showing three views of her side by side on a pure white background: front view, three-quarter side view, and back view.\n\nNon-negotiable, identical across all three: same body proportions (about three heads tall), same long wavy deep-navy hair with lighter blue tips and the same length, the small ahoge, the white frilly maid headband with light blue bows on both sides, the dark navy whale-fin ears, the light blue fin hands with no fingers, the dark navy dress with white ruffle hem and light blue bows, the white apron with light blue scalloped edge and the small whale print, white knee socks, dark navy shoes, and the blue-and-white whale tail on her right side.\n\nPose: standing straight, arms slightly away from the torso, feet shoulder width apart, neutral friendly expression, same eye height across the three figures so they line up on one baseline.\n\nStyle: flat vector, solid colors, uniform thick navy outline, simple cel shading, no gradients, no texture, no floor shadow, no text, no labels. Wide 3:2 composition.",
+ "task_id": 190342031,
+ "elapsed_sec": 28.8,
+ "file": "r5-sheet.jpg",
+ "bytes": 1979445
+}
